@@ -10,13 +10,6 @@ beforeEach(() => {
     render(<App />);
 });
 
-it('should format input values correctly', async () => {
-    const input = screen.getByTestId('input-box');
-    await userEvent.type(input, '1234567890');
-    expect(input.value).to.be.equal('(123) 456-7890');
-});
-
-
 it('should format the number in correct format.', async () => {
     const input = screen.getByTestId('input-box');
     await userEvent.type(input, '1234567890');
