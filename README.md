@@ -1,4 +1,4 @@
-#react-num-format
+# react-num-format
 
 I have included all the scenarios user can manipulate the input and included the scenarios mentioned in the challenge as well.
 
