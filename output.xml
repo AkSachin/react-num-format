@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="8" failures="0" errors="0" time="1.029">
+    <testsuite name="src/App.test.jsx" timestamp="2023-06-25T22:03:48.451Z" hostname="2lnltc" tests="8" failures="0" errors="0" skipped="0" time="0.265">
+        <testcase classname="src/App.test.jsx" name="should format the number in correct format." time="0.057">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should not format the number if provided value is 3 or less digits." time="0.019">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should start formatting on 4th digit input." time="0.019">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should remove formatting on 4th digit removal." time="0.027">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should start add hyphen on 7th digit input and not before that and remove on 7th digit removal." time="0.037">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should maintain formatting on if one digit is swapped by selecting a character and should maintain caret position" time="0.035">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should not accept any value after 10 digits" time="0.03">
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="should show the caret on right position after more than 1 characters removed by selection." time="0.038">
+        </testcase>
+    </testsuite>
+</testsuites>
